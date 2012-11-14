@@ -1,0 +1,26 @@
+zcfg.c
+A small and simple library wrote to handle simple config files
+wrote by Francois Bernard-Cardascia <cardascia.f {AT} gmail.com>
+
+
+History:
+- 19/01/2012: Creation.
+
+- 20/01/2012: First usable version.
+
+- 22/01/2012: Bug correction.
+
+- 10/11/2012: Chained list of config_pair improved.
+
+- 12/11/2012: Added the abbility to save preferences.
+              The config file is now buffered.
+              A backup of config file is created when saving.
+
+Compilation:
+just type `make`, libzcfg.a and libzcfg.so will be created.
+to compile the exemple, go to its directory and, here again, type `make`. note
+that, of course, you must first have libzcfg compiled.
+
+TODOs:
+- Variable types
+- Port to windows
